@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Randem</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="viewport" content="height=device-height, initial-scale=1" />
+  <script type="module" src="./main.js" defer></script>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="background-container"></div>
+    <h2 id="header">Randem Coding</h2>
+    <div id="nav-bar">
+        <img class="nav-buttons" id="messages-button" src="./images/messages.png">
+        <img class="nav-buttons" id="projects-button" src="./images/projects.png">
+      <a href="https://www.linkedin.com/in/randemcoding/"> <!-- Corrected link for LinkedIn -->
+        <img class="nav-buttons" id="linked-in-button" src="./images/linked-in-2.png">
+      </a>
+      <a href="https://www.youtube.com/channel/UCgPJMzAY0SxOUqep_YObZvw">
+        <img class="nav-buttons" id="youtube-button" src="./images/youtube-two.png">
+      </a>
+      <a href="https://github.com/randemcoding">
+        <img class="nav-buttons" id="git-hub-button" src="./images/github-2.png">
+      </a>
+    </div>
+    
+    <div id="services-bar">
+      <div class="inner-title-header">Web Sites</div>
+      <div class="inner-title-header">Private Home Servers</div>
+      <div class="inner-title-header">Software Devlopment</div>
+
+    </div>
+    <div id="flex-container">
+      <div class="inner-container" >
+        <div class="sub-header">Are you an aspiring musical artist?</div> 
+          <div class="middle-sentence">Would you like a personal website to showcase your music
+          with a custom music player.</div>
+          <div class="bottom-sentence">
+           We can build it. We can build a site personally for you and 
+          your audience. Want an event calendar to share with fans so they stay up to date with 
+          your show schedule, musical releases, etc. Or even a messaging/
+          <br>chat/forum.
+        </div>
+        
+      </div>
+      <div class="inner-container">
+        <div class="sub-header">Would you like a private home server?</div> 
+        <div class="middle-sentence">We can build you a custom server for your home.
+          Whether its for home security monitoring, in home calendar task scheduling,
+          messaging, file transfer, we can build a custom server for you to keep
+          your data private.
+        </div>
+      </div>
+      <div class="inner-container">
+        <div class="sub-header">Need custom software for your small business. 
+        </div> 
+        <div class="middle-sentence">We can write custom software for anything from payroll needs, 
+          client list information, billing, taxes, record keeping, etc.
+        </div>
+        <div class="bottom-sentence">
+          With our afforable pricing we can even make personal software customized for you and your needs.
+       </div>
+      </div>
+      
+    </div>
+    <div id="flex-container">
+      <div class="inner-container-two">
+        <img id="android-logo" src="./images/androif.png">
+        <div class="sub-header">Android App Development</div> 
+        <div class="middle-sentence">Have an idea for an app we can negotiate an 
+          affordable price. 
+        </div>
+
+      </div>
+      <div class="inner-container-two">
+        <div class="sub-header">Game Development</div> 
+        <img id="steam-logo" src="./images/steam.png">
+        <img id="windows-logo" src="./images/windows.png">
+        <div class="middle-sentence-two">2D Games with Phaser.js<br>
+          Server side coding for multi-player games. 
+          Need Help finishing a game? Contact and we'll see if we can help?
+        </div>
+      </div>
+      <div class="inner-container-two">
+        <div class="sub-header">Our Mission</div> 
+        <div class="middle-sentence"><br>
+          Make web development affordable<br>and accessible to all!!!<br>
+          Our goal is to be a "less business, more personal" programming company.
+          <br>Feel free to message and inquire about pricing.
+        </div>
+      </div>
+    </div>
+    <canvas id="myCanvas"></canvas>
+    <div id="pop-up">
+      <label id="top-label" for="name-input">Name</label>
+      <input type="text" id="name-input">
+      <label for="question-input">What service are you interested in?</label>
+      <textarea type="text" id="question-input" rows="100" columns="1"></textarea>
+      <p>Please include a way to communicate back to you.(email, phone, linkedIn, Discord)</p>
+      <p>Inquire about anything you may be interested in. All questions are welcome</p>
+      <p>If you don't think you can afford it ask anyway... Price is very negotiable.</p>
+      <button id="submit-button">Submit</button>
+      <button id="exit-button">X</button>
+    </div>
+</body>
+</html>
