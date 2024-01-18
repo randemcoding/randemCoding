@@ -268,6 +268,34 @@ label{
         padding: 0px;
     }
 }
+@media screen and (min-width: 1000px) {
+#flex-container{
+    padding-bottom: 20px;
+    height: 45vh;
+}
+#steam-logo{
+        width: 15vw;
+        height: 15vh;
+        margin-top: 7vh;
+        margin-left: 5.5vw;
+        z-index: -1;
+        
+    }
+    #windows-logo{
+        width: 15vw;
+        height: 10vh;
+        margin-top: 25vh;
+        z-index: -1;
+        position: relative;
+        top: -5vh;
+        margin-left: 5.5vw;
+
+    }
+    .middle-sentence-two{
+        position: relative;
+        top: -5vh;
+    }
+  }
 @media screen and (max-aspect-ratio: 1/1) and (max-width: 1000px) {
     /* Your styles for 1:1 aspect ratio go here */
     .sub-header{
