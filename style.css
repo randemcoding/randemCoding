@@ -4,21 +4,7 @@ body{
     overflow: scroll;
     height: 120vh;
 }
-#background-container{
-    width: 150vw;
-    background-color: rgb(95, 95, 109);
-    display: inline-flex;
-    min-height: 120vh;
-    position: fixed;
-    top: 0px;
-    left:-50%;
-    background-image: url(./images/nebula.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    animation: slideAnimation 10s ease-in-out infinite alternate;
-    overflow: hidden;
-    z-index: -3;
-}
+
 #header{
     text-shadow: 3px 3px 3px rgba(51, 48, 48, 0.192);
     color: rgba(75, 75, 75, 0.096);
@@ -146,12 +132,12 @@ body{
 }
 #myCanvas {
     position: fixed;
-    top: -10vh;
-    left: -20vw;
-    min-height: 120vh;
+    top: 0vh;
+    left: 0vw;
+    min-height: 100vh;
     z-index: -2;
-    animation: slideAnimationTwo 10s ease-in-out infinite alternate;
-    background-image: linear-gradient(to right, rgba(228, 211, 211, 0.247), rgba(117, 117, 221, 0.233));
+    background-color: rgb(27, 29, 29);
+    min-width: 100vw;
 }
 
 #android-logo {
